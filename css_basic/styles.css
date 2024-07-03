@@ -4,8 +4,11 @@ body,main {
 
 body {
   flex-direction: column;
+  background-color: rgb(217, 255, 246);
 }
-
+h1, h2{
+  color: brown;
+}
 main {
   flex-direction: row;
   flex: auto;
@@ -13,7 +16,24 @@ main {
 article {
   flex: 2; 
 }
-
+a{
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+a:visited {
+  color: rgb(255, 160, 44);
+}
+.logo {
+font-size: 3em;
+color: cornflowerblue;
+margin-right: 10px;
+}
+article {
+  padding: 1em;
+}
 aside {
   flex: 1;
 }
