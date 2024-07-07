@@ -259,7 +259,7 @@ footer {
 }
 .footer_section_div {
     display: flex;
-    width: 90%;
+    width: 91%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
