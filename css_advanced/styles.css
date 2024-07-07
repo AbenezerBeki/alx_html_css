@@ -259,14 +259,15 @@ footer {
 }
 .footer_section_div {
     display: flex;
-    width: 80%;
+    width: 90%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
 }
-#icon {
+.icon span {
     color: white;
+    margin: 10px;
 }
 footer p {
     margin-top: 100px;
