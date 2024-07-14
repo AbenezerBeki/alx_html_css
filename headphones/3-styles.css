@@ -63,7 +63,10 @@ header {
     color: white;
     text-decoration: none;
 }
-
+.nav-links a:hover {
+    color: var(--primary);
+    text-decoration: none;
+}
 .nav-toggle {
     display: none;
 }
